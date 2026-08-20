@@ -13,6 +13,11 @@ body {
         'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
 }
 
+/* 首页招呼区只保留一个挥手 emoji：隐藏空的正文块，避免留下多余间距 */
+.home-info .entry-content {
+    display: none;
+}
+
 .post-title {
     font-size: 34px;
 }

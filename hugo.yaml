@@ -49,8 +49,8 @@ params:
   ShowToc: true
 
   homeInfoParams:
-    Title: "你好呀 👋"
-    Content: "我是 Xinyi。这里放我的学习笔记，从强化学习开始。"
+    Title: "👋"
+    Content: ""
 
   socialIcons:
     - name: github
