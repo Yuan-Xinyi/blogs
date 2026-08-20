@@ -1,5 +1,5 @@
 ---
-title: "强化学习入门笔记：一张给新手的地图"
+title: "2024强化学习学习笔记存档"
 date: 2026-08-20
 draft: false
 tags: ["强化学习", "机器学习", "学习笔记"]
@@ -7,9 +7,10 @@ categories: ["强化学习"]
 summary: "从贝尔曼方程到 PPO 和 TD3——把重要概念、重要理解和算法版图整理成我当初学习时的脉络。"
 ShowToc: true
 TocOpen: false
+aliases: ["/posts/rl-beginner-map/"]
 ---
 
-> **说明**：下面的内容由 AI 根据我的原始中文笔记整理生成。我梳理了脉络、保留了自己的表述，但成文由 AI 完成，难免有疏漏或不够准确的地方，欢迎指正。原始中文资料在[我的飞书笔记](https://dwwz5un57w.feishu.cn/wiki/Fx7TwzBEuir2PvkOegacxXUCnEk)。
+> **说明**：下面的内容由 AI 根据我的原始中文笔记整理生成。我梳理了脉络、保留了自己的表述，但成文由 AI 完成，难免有疏漏或不够准确的地方，欢迎指正。原始中文资料在[我的飞书笔记](https://my.feishu.cn/wiki/ORTPwjcU6iLIOVkNnCqcpdLdnMg)。
 
 ---
 
