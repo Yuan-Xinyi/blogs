@@ -1,0 +1,63 @@
+baseURL: https://yuan-xinyi.github.io/blogs/
+languageCode: en-us
+title: Xinyi's Blog
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+pagination:
+  pagerSize: 10
+
+minify:
+  disableXML: true
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # required by PaperMod's search page
+
+menu:
+  main:
+    - identifier: archives
+      name: Archives
+      url: /archives/
+      weight: 10
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 30
+
+params:
+  env: production
+  description: "Notes on reinforcement learning, machine learning, and whatever else I'm studying."
+  defaultTheme: auto
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  ShowToc: true
+
+  homeInfoParams:
+    Title: "Hi there 👋"
+    Content: "I'm Xinyi. This blog collects my study notes, starting with reinforcement learning."
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/Yuan-Xinyi"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
