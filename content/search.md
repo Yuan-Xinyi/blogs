@@ -1,7 +1,7 @@
 ---
-title: "Search"
+title: "搜索"
 layout: "search"
 url: "/search/"
 summary: search
-placeholder: "Search posts..."
+placeholder: "搜索文章..."
 ---

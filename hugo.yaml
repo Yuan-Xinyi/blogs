@@ -1,5 +1,6 @@
 baseURL: https://yuan-xinyi.github.io/blogs/
-languageCode: en-us
+languageCode: zh-cn
+defaultContentLanguage: zh
 title: Xinyi's Blog
 theme: PaperMod
 
@@ -23,21 +24,21 @@ outputs:
 menu:
   main:
     - identifier: archives
-      name: Archives
+      name: 归档
       url: /archives/
       weight: 10
     - identifier: tags
-      name: Tags
+      name: 标签
       url: /tags/
       weight: 20
     - identifier: search
-      name: Search
+      name: 搜索
       url: /search/
       weight: 30
 
 params:
   env: production
-  description: "Notes on reinforcement learning, machine learning, and whatever else I'm studying."
+  description: "强化学习、机器学习以及其他正在学的东西的笔记。"
   defaultTheme: auto
   ShowReadingTime: true
   ShowShareButtons: false
@@ -48,8 +49,8 @@ params:
   ShowToc: true
 
   homeInfoParams:
-    Title: "Hi there 👋"
-    Content: "I'm Xinyi. This blog collects my study notes, starting with reinforcement learning."
+    Title: "你好呀 👋"
+    Content: "我是 Xinyi。这里放我的学习笔记，从强化学习开始。"
 
   socialIcons:
     - name: github
